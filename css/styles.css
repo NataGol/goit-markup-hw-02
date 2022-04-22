@@ -1,3 +1,62 @@
-body {
-    background-color: tomato;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
 }
+
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.logo {
+    color: var(--accent-color); 
+    
+}
+ul {
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* Button */
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.feature-list .title {
+    color: var(--title-text-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.team {
+    color: var(--title-text-color);
+}
+.team-list .title{
+    color: var(--title-text-color);
+}
+
+
+
+/*  */
+/* акцент #2196F3 */
+/* заголовки #212121 */
+/* белый #FFFFFF */
+/* основной текст #757575 */
+/* контакты в подвале #FFFFFF 60 % */
+/* основной фон #E5E5E5 */
+/* доп фон #F5F4FA */
+/* подвал #2F303A */
+/*  */
+/*  */
+
