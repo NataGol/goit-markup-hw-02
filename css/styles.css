@@ -15,6 +15,7 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+
 }
 .header {
     font-weight: 500;
@@ -30,12 +31,14 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .accent {
     color: var(--title-text-color);
 }
 .contact-link {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 .contact-link:hover, 
 .contact-link:focus {
@@ -83,11 +86,13 @@ ul {
     line-height: 1.71;
 
 }
+
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav .link.current {
     color: var(--accent-color);
